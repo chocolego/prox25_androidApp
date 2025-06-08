@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">prox25_mcl</string>
+
+    <string name="entername">Enter Name</string>
+    <string name="name">name</string>
+    <string name="enterpw">Enter password</string>
+    <string name="pw">password</string>
+
+    <string name="enter">ENTER</string>
+    <string name="registrar">REGISTER NEW USER</string>
+
+
+    <string name="conexion">CONNECTION</string>
+    <string name="enterip">Enter IP</string>
+    <string name="port">PORT</string>
+    <string name="enterport">Enter Port</string>
+    <string name="idioma">LANGUAGE</string>
+    <string name="atras">GO BACK</string>
+    <string name="ok">OK</string>
+    <string name="opciones">OPTIONS</string>
+    <string name="defaultop">DEFAULT</string>
+
+    <string name="error_guardarprefs">Error saving prefs.</string>
+    <string name="error_reinicioprefs">Error reseting prefs.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

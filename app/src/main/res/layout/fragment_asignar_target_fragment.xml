@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.fragments.asignarTarget_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_tituloasignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="ASIGNACION"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_exp_asignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="estos son tus dispositivos libres"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_exp_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:text="Selecciona un dispositivo"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spin_disp"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_exp_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:text="o buscar dispositivo (nombre)"
+        android:textSize="16sp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoctv_dis"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:text=""
+        android:hint="buscar dispositivo"/>
+
+    <TextView
+        android:id="@+id/tv_exp_asignartar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:text="estos son tus targets libres"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_exp_seltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="275dp"
+        android:text="Selecciona un target"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spin_tar"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"/>
+
+    <TextView
+        android:id="@+id/tv_exp_buscartar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="355dp"
+        android:text="o buscar target (nombre)"
+        android:textSize="16sp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoctv_tar"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="390dp"
+        android:text=""
+        android:hint="buscar target"/>
+
+    <!--<TextView
+        android:id="@+id/tv_titulo_datosDisp"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:text="datos dispositivo y target seleccionados:"
+        android:textSize="16sp"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_datosDisp"
+        android:layout_width="375dp"
+        android:layout_height="250dp"
+        android:text="datos "
+        android:textSize="18sp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="10dp"/>-->
+
+    <Button
+        android:id="@+id/btn_asignado"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:text="ASIGNAR TARGET A DISPOSITIVO"
+        android:layout_marginVertical="450dp"
+        android:layout_marginStart="20dp"
+        />
+
+
+
+
+</FrameLayout>

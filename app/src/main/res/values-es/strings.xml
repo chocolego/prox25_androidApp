@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">prox25_mcl</string>
+    <string name="conexion">CONEXION</string>
+    <string name="enterip">Introduzca IP</string>
+    <string name="port">PUERTO</string>
+    <string name="enterport">Introduzca Puerto</string>
+    <string name="idioma">IDIOMA</string>
+    <string name="atras">ATRAS</string>
+    <string name="ok">ACEPTAR</string>
+    <string name="opciones">OPCIONES</string>
+
+    <string name="entername">Introduzca Nombre</string>
+    <string name="name">nombre</string>
+    <string name="enterpw">Introduzca contraseña</string>
+    <string name="pw">contraseña</string>
+
+    <string name="enter">ENTRAR</string>
+    <string name="registrar">REGISTRO NUEVO USUARIO</string>
+    <string name="defaultop">POR DEFECTO</string>
+
+    <string name="error_guardarprefs">Error guardando preferencias.</string>
+    <string name="error_reinicioprefs">Error reiniciando preferencias.</string>
+</resources>

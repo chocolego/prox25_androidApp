@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mop01" android:title="@string/opciones"></item>
+    <item android:id="@+id/mop02" android:title="Realizar Sincronizacion"></item>
+    <item android:id="@+id/mop03" android:title="Salir"></item>
+</menu>
