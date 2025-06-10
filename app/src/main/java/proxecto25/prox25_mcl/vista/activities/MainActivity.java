@@ -67,15 +67,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//        //0. TABLET LAYOUT
-//        // Comprobar si tablet o telefono
-//        boolean isTablet = getResources().getConfiguration().smallestScreenWidthDp >= 600;
-//        if (isTablet) {
-//            Log.d("DeviceCheck", " tablet");
-//        } else {
-//            Log.d("DeviceCheck", "telefono");
-//        }
-//        setContentView(R.layout.activity_main);
+        //0. TABLET LAYOUT
+        // Comprobar si tablet o telefono
+        boolean isTablet = getResources().getConfiguration().smallestScreenWidthDp >= 600;
+        if (isTablet) {
+            Log.d("DeviceCheck", " tablet");
+        } else {
+            Log.d("DeviceCheck", "telefono");
+        }
+        setContentView(R.layout.activity_main);
 
         //1.cargar imagenes y ajustes por defecto en BD
         try{
