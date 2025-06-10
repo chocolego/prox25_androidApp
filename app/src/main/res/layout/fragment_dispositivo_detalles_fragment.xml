@@ -9,7 +9,16 @@
     <TextView
         android:id="@+id/tv_datos_detalledisp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="150dp"
         android:text="" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_marginTop="160dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAPS" />
+
 
 </FrameLayout>

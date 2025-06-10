@@ -19,6 +19,9 @@
     <string name="registrar">REGISTRO NUEVO USUARIO</string>
     <string name="defaultop">POR DEFECTO</string>
 
+    <string name="gestiontargets">GESTION DE TARGETS</string>
+    <string name="editdatos">Editar</string>
+
     <string name="error_guardarprefs">Error guardando preferencias.</string>
     <string name="error_reinicioprefs">Error reiniciando preferencias.</string>
 </resources>

@@ -70,7 +70,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="30dp"
-        android:text="editar datos"
+        android:text="@string/editdatos"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagenperfil" />
@@ -96,12 +96,12 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_titulo_disp" />
 
     <Button
-        android:id="@+id/btn_atras"
+        android:id="@+id/btn_atrasperf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="50dp"
-        android:text="ATRAS"
+        android:text="@string/atras"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="50dp"
-        android:text="GESTION DE TARGETS"
+        android:text="@string/gestiontargets"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

@@ -9,11 +9,34 @@
 
     <TextView
         android:id="@+id/tv_datosdispppp"
-        android:layout_width="336dp"
-        android:layout_height="294dp"
-        android:layout_marginStart="37dp"
+        android:layout_width="360dp"
+        android:layout_height="20dp"
         android:layout_marginTop="45dp"
-        android:text="TextView"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pins" />
+
+    <TextView
+        android:id="@+id/tv_pins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="PINS"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_datosdispppp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -73,7 +73,7 @@ public class UsuarioDatos_activity extends AppCompatActivity {
 
 
         Button btn_editar = findViewById(R.id.btn_editar);
-        Button btn_atras= findViewById(R.id.btn_atras);
+        Button btn_atras= findViewById(R.id.btn_atrasusu);
         ImageView imgperf = findViewById(R.id.imagenperfil);
         EditText et_nombre = findViewById(R.id.et_nombre);
         EditText et_mail = findViewById(R.id.et_user);

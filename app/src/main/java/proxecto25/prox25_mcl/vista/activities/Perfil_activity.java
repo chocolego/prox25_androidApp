@@ -72,7 +72,7 @@ public class Perfil_activity extends AppCompatActivity {
         });
 
         btn_editar = findViewById(R.id.btn_editar);
-        btn_atras = findViewById(R.id.btn_atras);
+        btn_atras = findViewById(R.id.btn_atrasperf);
         btn_gestion = findViewById(R.id.btn_gestiontargets);
         tv_datos = findViewById(R.id.tv_datos);
         imgperf = findViewById(R.id.imagenperfil);

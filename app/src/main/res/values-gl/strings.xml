@@ -20,6 +20,9 @@
     <string name="defaultop">POR DEFECTO</string>
 
 
+    <string name="gestiontargets">XESTION DE TARGETS</string>
+    <string name="editdatos">Editar</string>
+
     <string name="error_guardarprefs">Erro gardando preferencias.</string>
     <string name="error_reinicioprefs">Erro reiniciando preferencias.</string>
 

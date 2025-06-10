@@ -1,6 +1,7 @@
 package proxecto25.prox25_mcl.vista.activities;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -38,6 +39,14 @@ public class GestionTargets_activity extends AppCompatActivity {
         btn_asignar.setOnClickListener(v -> {
             loadAsignarTargetFragment(); //mostrar dispositivos libres y targets libres, disponibles para ser enlazados
 
+        });
+
+        Button btn_volver = findViewById(R.id.btn_atras);
+        btn_volver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
         });
 
 

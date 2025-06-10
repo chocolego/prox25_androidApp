@@ -1,6 +1,7 @@
 package proxecto25.prox25_mcl.vista.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
@@ -10,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +31,9 @@ import proxecto25.prox25_mcl.bbdd.prefsHelper;
 import proxecto25.prox25_mcl.modelo.Dispositivos;
 import proxecto25.prox25_mcl.modelo.Targets;
 import proxecto25.prox25_mcl.util.UtilController;
+import proxecto25.prox25_mcl.vista.activities.Perfil_activity;
+import proxecto25.prox25_mcl.vista.activities.UsuarioDatos_activity;
+import proxecto25.prox25_mcl.vista.activities.dispositivoDetalle_activity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -84,6 +89,17 @@ public class dispositivoDetalles_fragment extends Fragment {
         Integer idDis = Integer.parseInt(dispositivoId);
 
         cargaDetalles(idDis);
+
+        Button btn_maps = view.findViewById(R.id.btn_maps);
+        btn_maps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(requireContext(), dispositivoDetalle_activity.class);
+                intent.putExtra("device_id", idDis);
+                startActivity(intent);
+            }
+        });
 
         return view;
     }
